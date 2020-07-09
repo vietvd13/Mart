@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-login{
+    height: 600px;
+    width: 400px;
+    background-color: #363062;
+    border-radius: 20px; 
+    margin-top: 150px;
+    color: white;
+}
+
+#title-login{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.form-login img{
+    height: 230px;
+    width: auto;
+    padding-top: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-login input{
+    width: 290px;
+    height: 32px;
+    border-radius: 15px;
+    border: whitesmoke solid 2px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+input[type="password"] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#inp_login {
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+    background-color: #ff1e56;
+    border: none;
+    color: white;
+}
+
+input#inp_login:hover{
+    background-color: #eac100;
+    color: #ff1e56;
+}
+
+i{
+    padding-left: 10px;
+}
+
+ul{
+    text-align: center;
+    background-color: #ed1c24;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li{
+    display: inline-table;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+ul li a:hover{
+    background-color: #f64b3c;
+}
+
+ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+
+ul li:hover .sub-menu{
+    display: block;
+}
+
+#bg-home img{
+    width: 1000px;
+    height: 600px;
+    margin-top: 60px;
+}
+
+#title-home{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+table{
+    width: 1000px;
+    height: auto;
+    margin-top: 50px;
+}
+
+tr{
+    height: 50px;
+}
+
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #202040;
+    color: white;
+}
+
+form input{
+    display: inline;
+}
+
+form.btn-option{
+    display: inline;
+}
+
+td{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+
+form.btn-option input[type = "submit"]{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: #f64b3c;
+    border: none;
+    font-size: 15px;
+}
+
+form.btn-option input[type="submit"]:hover{
+    background-color: #f78259;
+}
+
+table tr:nth-child(odd) td{
+    background-color: #e7edf0;
+    border: none;
+}
+
+form.adding{
+    padding: 40px 90px;
+    margin-top: 50px;
+    background-color: #202040;
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+}
+
+input.frm-add-user{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    border: none;
+}
+
+input.btn-add{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #f64b3c;
+    border: none;
+    color: white;
+}
+
+form.update-password {
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #202040;
+    color: white;
+    border-radius: 10px;
+}
+
+form.update-password input[type="password"]{
+    width: 300px;
+    height: 34px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+form.update-password input[type="submit"]{
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #f64b3c;
+    border: none;
+    color: white;
+}
+
+form.update-password input[type="submit"]:hover{
+    background-color: #f78259;
+}
+
+table.tbl-brand{
+    width: 1200px;
+}
+
+form.add-brand{
+    margin-top: 50px;
+    padding: 50px 80px;
+    width: 350px;
+    background-color: #202040;
+    border-radius: 10px;
+}
+
+.add-brand input[type="text"]{
+    width: 320px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.add-brand input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: #f64b3c;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.update-brand{
+    padding: 50px 50px;
+    margin-top: 50px;
+    background-color: #202040;
+}
+
+form.update-brand{
+    width: 300px;
+    border-radius: 10px;
+}
+
+form.update-brand input[type="text"]{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+form.update-brand input[type="submit"]{
+    width: 20px;
+    width: 150px;
+    color: white;
+    background-color: #f64b3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+h3{
+    margin-bottom: 30px;
+    color: white;
+}
+
+form.search-product{
+    padding: 30px 50px;
+    background-color: #202040;
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+form.search-product input[type="text"]{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: none;
+}
+
+form.search-product input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    background-color: #ed1c24;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+form.search-product input[type="submit"]:hover{
+    background-color: #f64b3c;
+}
+
+table.tbl-product{
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+td{
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.add-product{
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    background-color: #202040;
+    color: white;
+    padding: 50px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+form.add-product input, select{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+form.add-product input[type="submit"]{
+    width: 250px;
+    height: 50px;
+}
+
+form.add-product input[type="submit"]:hover{
+    background-color: #f78259;
+}
+
+form.update-product{
+    width: 500px;
+    height: 610px;
+    background-color: #202040;
+    color: white;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+form.update-product input, select{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+form.update-product input[type="submit"]{
+    width: 200px;
+    height: 30px;
+}

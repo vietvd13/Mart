@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+}
+
+#top-header{
+    width: 1200px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+#top-header-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#top-header-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+li.login a {
+    color: black;
+}
+
+i{
+    padding-right: 10px;
+}
+
+#nav-home{
+    height: 75px;
+    width: 100%;
+    background-color: #ed1c24;
+}
+
+.crop-nav-home{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo-nav-home{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#logo-nav-home a img{
+    height: 60px;
+    width: auto;
+}
+
+#logo-nav-home a{
+    height: 100%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+#menu-home{
+    width: 70%;
+    height: 100%;
+    float: right;
+    line-height: 75px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#menu-home ul li{
+    display: inline-block;
+    width: 150px;
+}
+
+#menu-home ul{
+    float: right;
+}
+
+#menu-home ul li a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#menu-home ul li:hover {
+    background-color: #f64b3c;
+}
+
+#menu-home ul li:hover a{
+    color: white;
+}
+
+#content{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.crop{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.show-brand{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #E9EDF0;
+    border-radius: 5px;
+}
+
+.show-product{
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+ul.list-brand li a{
+    word-break: break-all;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+ul.list-brand li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul.list-brand li:hover a{
+    color: #f64b3c;
+}
+
+li.show-item{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul.item li{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+
+ul.info-item{
+    display: table;
+}
+
+.img-item img{
+    width: 200px;
+    height: 200px;
+}
+
+.name-item{
+    margin-top: 10px;
+    font-family: Nunito;
+    font-size: 15px;
+    float: left;
+}
+
+a{
+    color: black;
+}
+
+li.show-item:hover{
+    box-shadow: 0 4px 10px 4px #ddd;
+}
+
+.detail-product{
+    width: 600px;
+    height: 500px;
+    padding-top: 50px;
+    background-color: khaki;
+}
